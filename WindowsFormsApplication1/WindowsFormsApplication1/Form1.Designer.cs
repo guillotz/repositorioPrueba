@@ -34,11 +34,11 @@
             // button1
             // 
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(108, 95);
+            this.button1.Location = new System.Drawing.Point(70, 82);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(133, 90);
             this.button1.TabIndex = 0;
-            this.button1.Text = "bweqweqwe";
+            this.button1.Text = "Soy un boton";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -49,6 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1tttt";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
